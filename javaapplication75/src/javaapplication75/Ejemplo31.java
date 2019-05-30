@@ -67,11 +67,12 @@ public class Ejemplo31 {
         }
         // impresión de la información 
         
-        System.out.printf("Notas Ingresadas\n Total notas ingresadas %d\n ",
+        System.out.printf("Notas Ingresadas\n Total notas ingresadas %d\n"
+                + "Rangos:\n",
                 contador2);
         
         for(int i = 0; i<datos.length; i++){
-            System.out.printf("Rangos: \n%s - %d\n", rangos[i], datos[i]);
+            System.out.printf("%s - %d\n", rangos[i], datos[i]);
         }
         
 
