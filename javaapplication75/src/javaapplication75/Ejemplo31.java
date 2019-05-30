@@ -53,16 +53,16 @@ public class Ejemplo31 {
                     }
                 }
             }
-            // incremento del contador2
-            contador2 = contador2 + 1;
+        // incremento del contador2
+        contador2 = contador2 + 1;
         }
         // Pregunta al usuario para seguir en el bucle 
-            System.out.println("Si desea agregar más notas, por favor aplaste 1"
-                    + " sino aplaste cualquier otro número");
-            pregunta = entrada.nextInt();
-            // si el usuario desea salir del bucle 
-            if (pregunta == 1 ){
-                bandera = false;
+        System.out.println("Si desea agregar más notas, por favor aplaste 1"
+             + " sino aplaste cualquier otro número");
+        pregunta = entrada.nextInt();
+        // si el usuario desea salir del bucle 
+        if (pregunta == 1 ){
+            bandera = false;
             }
         }
         // impresión de la información 
@@ -71,7 +71,7 @@ public class Ejemplo31 {
                 contador2);
         
         for(int i = 0; i<datos.length; i++){
-            System.out.printf("%s - %d\n", rangos[i], datos[i]);
+            System.out.printf("Rangos: \n%s - %d\n", rangos[i], datos[i]);
         }
         
 
