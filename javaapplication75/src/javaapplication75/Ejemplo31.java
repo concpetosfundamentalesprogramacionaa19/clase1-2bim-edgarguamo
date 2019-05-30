@@ -29,26 +29,26 @@ public class Ejemplo31 {
         int contador2 = 0; // v usada para contar los registros de notas
         // bucle principal
         while (bandera == true){    
-        // Petición de notas 
-        System.out.println("Por ingrese la nota");
-        nota = entrada.nextInt();
-        // almacenamiento de las notas dependiendo del rango 
-        if(nota <=8){ // si la nota es menor o igual a 8 
-            datos[0] = datos[0] + 1;
-        }else{
-            if(nota>=8.1 && nota <=12){ 
-                datos[1] = datos[1] + 1;
+            // Petición de notas 
+            System.out.println("Por ingrese la nota");
+            nota = entrada.nextInt();
+            // almacenamiento de las notas dependiendo del rango 
+            if(nota <=8){ // si la nota es menor o igual a 8 
+                datos[0] = datos[0] + 1;
             }else{
-                if (nota >= 12.1 && nota <=16){
-                    datos [2] = datos [2] + 1; 
-                } else {
-                    if (nota >= 16.1 && nota <= 19){
-                        datos [3] = datos [3] + 1;
-                    }else {
-                        if (nota >= 19.1 && nota <= 20){
-                            datos [4] = datos[4] + 1;
-                        }else{
-                            datos [5] = datos[5] + 1;
+                if(nota>=8.1 && nota <=12){ 
+                    datos[1] = datos[1] + 1;
+                }else{
+                    if (nota >= 12.1 && nota <=16){
+                        datos [2] = datos [2] + 1; 
+                    } else {
+                        if (nota >= 16.1 && nota <= 19){
+                            datos [3] = datos [3] + 1;
+                        }else {
+                            if (nota >= 19.1 && nota <= 20){
+                                datos [4] = datos[4] + 1;
+                            }else{
+                                datos [5] = datos[5] + 1;
                         }
                     }
                 }
